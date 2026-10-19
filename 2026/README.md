@@ -14,18 +14,18 @@ which is the current cohort.
 
 ## OOP Sheets
 
-No sheets have been added yet. This table will be updated after the available
-materials have been inventoried.
+| Sheet count | Status |
+|-------------|--------|
+| 4 | Inventoried; solutions not started |
 
-| Sheet | Status |
-|-------|--------|
-| — | Awaiting inventory |
+Sheet 2 has two different source variants that still need confirmation. The
+detailed sheet list is available in [`oop/README.md`](oop/README.md).
 
 ## Contents
 
-The `oop/` directory will be added when the first verified sheet is ready. It
-will contain a README and one `sheet-XX/` directory per sheet. Each sheet will
-contain a README plus one standalone C++ file per question.
+The `oop/` directory contains the subject README. Each `sheet-XX/` directory
+will be added when its solutions are documented, and will contain a README plus
+one standalone C++ file per question.
 
 ## Notes
 

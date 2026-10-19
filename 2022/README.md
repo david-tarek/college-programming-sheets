@@ -4,18 +4,18 @@ This directory contains verified OOP programming sheets from the 2022 cohort.
 
 ## OOP Sheets
 
-No sheets have been added yet. This table will be updated after the available
-materials have been inventoried.
+| Sheet count | Status |
+|-------------|--------|
+| 8 | Inventoried; solutions not started |
 
-| Sheet | Status |
-|-------|--------|
-| — | Awaiting inventory |
+The detailed sheet list is available in [`oop/README.md`](oop/README.md).
 
 ## Contents
 
 Materials are organized independently from the 2026 and 2025 cohorts. The
-`oop/` directory will be added when the first verified sheet is ready. The 2022
-curriculum is not assumed to match any newer cohort.
+`oop/` directory contains the subject README. Sheet directories are added when
+their solutions are documented. The 2022 curriculum is not assumed to match any
+newer cohort.
 
 ## Notes
 

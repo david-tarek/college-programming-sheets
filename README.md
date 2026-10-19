@@ -4,13 +4,12 @@ A structured collection of C++ solutions and documentation for **COMP 205 —
 Object-Oriented Programming** sheets at the Faculty of Science, Ain Shams
 University, organized by academic cohort, sheet, and question.
 
-This repository is dedicated to OOP only. It covers the 2026, 2025, and 2022
-cohorts. Materials for 2024 and 2023 are not currently available and are not
+This repository is dedicated to OOP only. It covers the 2026, 2025, 2024, and
+2022 cohorts. Materials for 2023 are not currently available and are not
 included.
 
-> **Status:** Repository initialization. No verified sheets have been published
-> yet. Materials and solutions will be added only after the original questions
-> have been reviewed.
+> **Status:** Materials inventoried. No solutions have been published yet.
+> Solutions will be added only after the original questions have been reviewed.
 
 ## Purpose
 
@@ -43,14 +42,14 @@ the course staff.
 
 | Cohort | Role | Content status |
 |--------|------|----------------|
-| 2026 | Current cohort | Awaiting material inventory |
-| 2025 | Previous cohort | Awaiting material inventory |
-| 2022 | Earlier cohort | Awaiting material inventory |
-| 2024 | Not currently available | Not included |
+| 2026 | Current cohort | 4 sheets inventoried |
+| 2025 | Previous cohort | 7 sheets inventoried |
+| 2024 | Earlier cohort | 9 sheets inventoried |
+| 2022 | Earlier cohort | 8 sheets inventoried |
 | 2023 | Not currently available | Not included |
 
-The 2024 and 2023 materials are not available, so no folders, sheets, or
-solutions are created for them.
+The 2023 materials are not available, so no folder, sheet, or solution is
+created for that cohort.
 
 ## Repository Structure
 
@@ -59,18 +58,25 @@ college-programming-sheets/
 ├── README.md
 ├── .gitignore
 ├── 2026/
-│   └── README.md
+│   ├── README.md
+│   └── oop/README.md
 ├── 2025/
-│   └── README.md
+│   ├── README.md
+│   └── oop/README.md
+├── 2024/
+│   ├── README.md
+│   └── oop/README.md
 ├── 2022/
-│   └── README.md
+│   ├── README.md
+│   └── oop/README.md
 └── docs/
     ├── compilation-guide.md
-    └── contribution-guide.md
+    ├── contribution-guide.md
+    └── materials-inventory.md
 ```
 
-The `oop/` and sheet directories are added only when verified materials are
-available. A completed sheet will follow this pattern:
+Sheet directories are added only when their solutions are documented. A
+completed sheet will follow this pattern:
 
 ```text
 2026/
@@ -82,23 +88,27 @@ available. A completed sheet will follow this pattern:
         └── question-02.cpp
 ```
 
-Each cohort has its own README. The `oop/` directory and each sheet will also
-have a README once that content exists.
+Each cohort and the OOP subject have their own README. Each sheet will also have
+a README once its solutions are documented.
 
 ## OOP Sheets
 
-The inventory has not been completed yet. The table below will be populated only
-with sheets that have been verified against the original materials.
+The source PDFs have been inventoried. Solutions have not started yet. The full
+list of sheets, topics, and preliminary question counts is available in
+[`docs/materials-inventory.md`](docs/materials-inventory.md).
 
-| Cohort | Sheet | Status |
-|--------|-------|--------|
-| 2026 | — | Awaiting inventory |
-| 2025 | — | Awaiting inventory |
-| 2022 | — | Awaiting inventory |
+| Cohort | Sheets | Status |
+|--------|--------|--------|
+| 2026 | 1–4 (Sheet 2 has two variants) | Sources inventoried |
+| 2025 | 1–7 | Sources inventoried |
+| 2024 | 1–9 | Sources inventoried |
+| 2022 | 1–8 | Sources inventoried |
+| 2023 | — | Materials not available |
 
 ## Navigation
 
-1. Open the folder for the relevant cohort (`2026/`, `2025/`, or `2022/`).
+1. Open the folder for the relevant cohort (`2026/`, `2025/`, `2024/`, or
+   `2022/`).
 2. Open the `oop/` folder.
 3. Open the sheet folder.
 4. Read the sheet README for the question list and completion status.
@@ -132,7 +142,7 @@ More details are available in
 
 ## File Naming
 
-- Cohort folders use the four-digit year: `2026`, `2025`, `2022`.
+- Cohort folders use the four-digit year: `2026`, `2025`, `2024`, `2022`.
 - The OOP subject folder is named `oop`.
 - Sheet folders use two digits: `sheet-01`, `sheet-02`.
 - Question files use two digits: `question-01.cpp`, `question-02.cpp`.
