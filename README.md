@@ -73,6 +73,7 @@ college-programming-sheets/
     ├── compilation-guide.md
     ├── contribution-guide.md
     ├── learning-resources.md
+    ├── lecture-coverage.md
     └── materials-inventory.md
 ```
 
@@ -148,6 +149,13 @@ overloading, and structs are collected in
 [`docs/learning-resources.md`](docs/learning-resources.md). They are not
 sheet-specific walkthroughs; they are used to build the foundations needed
 before solving a sheet.
+
+## Lecture Coverage
+
+The local COMP 205 lecture notes are reviewed separately from the sheets. The
+concept map, sheet-by-sheet coverage, and remaining gaps are documented in
+[`docs/lecture-coverage.md`](docs/lecture-coverage.md). The lecture PDFs remain
+outside the repository and are not published.
 
 ## File Naming
 

@@ -16,6 +16,14 @@ as part of the same sheet and will be confirmed while each sheet is reviewed.
 | 2022 | 1–8 | 8 | 30 | Inventory complete; solutions not started |
 | 2023 | — | 0 | 0 | Materials not available |
 
+## Lecture Materials
+
+The local lecture folder is separate from the sheet PDFs. It contains 13
+lecture-note PDFs and one course guide, mostly handwritten and image-based. The
+lecture PDFs are not published in this repository. Their topic coverage and the
+concepts missing from them are recorded in
+[`lecture-coverage.md`](lecture-coverage.md).
+
 ## 2026
 
 | Sheet | Main topics | Questions | Status |
