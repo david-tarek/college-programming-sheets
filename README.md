@@ -1,48 +1,52 @@
 # COMP 205 — OOP Sheets (C++ Solutions)
 
-Solved OOP sheets for **COMP 205**, Faculty of Science, Ain Shams University.
+COMP 205 Object-Oriented Programming sheets for the 2026, 2025, 2024, and 2022
+cohorts, Faculty of Science, Ain Shams University.
 
-The repository covers the 2026, 2025, 2024, and 2022 cohorts. Materials for
-2023 are not available.
-
-## What Each Sheet Folder Contains
-
-```text
-sheet-01/
-├── README.md        # what the sheet is about and what each question asks
-├── videos.md        # explanation video links only
-├── question-01.cpp  # standalone solution with its own main()
-├── question-02.cpp
-└── ...
-```
+Materials for 2023 are not available.
 
 ## Cohorts
 
-| Cohort | Sheets | Index |
-|--------|--------|-------|
-| 2026 | 1–4 | [`2026/oop/README.md`](2026/oop/README.md) |
-| 2025 | 1–7 | [`2025/oop/README.md`](2025/oop/README.md) |
-| 2024 | 1–9 | [`2024/oop/README.md`](2024/oop/README.md) |
-| 2022 | 1–8 | [`2022/oop/README.md`](2022/oop/README.md) |
+| Cohort | Index |
+|--------|-------|
+| 2026 | [`2026/README.md`](2026/README.md) |
+| 2025 | [`2025/README.md`](2025/README.md) |
+| 2024 | [`2024/README.md`](2024/README.md) |
+| 2022 | [`2022/README.md`](2022/README.md) |
 
-## Compile and Run
+## Sheet Folder Structure
 
-Each question is a standalone file. Compile one file at a time:
+Each sheet is added only after it has been solved. The folder structure is:
 
-```bash
-g++ -std=c++17 -Wall -Wextra -pedantic question-01.cpp -o question-01
+```text
+2026/
+├── README.md
+├── Sheet 1/
+│   ├── README.md        # sheet details and what every question asks
+│   ├── videos.md        # explanation video links
+│   ├── question1.cpp
+│   ├── question2.cpp
+│   └── question3.cpp
+├── Sheet 2/
+│   ├── 2.1 Homework/
+│   └── 2.2 Lab/
+└── Sheet 3/
 ```
 
-Run it:
+The original sheet PDFs are not uploaded to this repository.
 
-```bash
-./question-01        # Linux or macOS
-.\question-01.exe    # Windows
-```
+## Sheet README Template
 
-## Notes
+Every sheet README follows this idea. Example for 2026 Sheet 1:
 
-- The original sheet PDFs are not uploaded to this repository.
-- The 2026 Sheet 2 source has two variants; the official one is not confirmed
-  yet.
-- A sheet is added only after its questions have been reviewed.
+### Sheet 1: Fundamentals & Dynamic Arrays
+
+- `question1.cpp`: Number analysis functions (divisibility check, Greatest
+  Common Divisor [GCD], prime checking, digit reversal, and digit count).
+- `question2.cpp`: Dynamic array operations (input/display, search and replace,
+  index swapping, and bubble sorting using swap).
+- `question3.cpp`: Array analysis functions (vertical listed display, array
+  reversal, duplicate detection, and cumulative prefix sum array generation).
+
+Each sheet folder also contains a `videos.md` file with general explanation
+links for that sheet.
