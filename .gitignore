@@ -1,0 +1,44 @@
+# Compiled binaries and object files
+*.exe
+*.out
+*.o
+*.obj
+*.gch
+*.pch
+*.dll
+*.lib
+*.a
+*.so
+*.dylib
+
+# Build directories
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# Debug files
+*.pdb
+*.ilk
+*.dSYM/
+*.stackdump
+
+# IDE and editor files
+.vscode/
+.idea/
+*.code-workspace
+*.sln
+*.vcxproj
+*.vcxproj.*
+*.suo
+*.user
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary and log files
+*.tmp
+*.log
