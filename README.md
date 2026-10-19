@@ -72,6 +72,7 @@ college-programming-sheets/
 └── docs/
     ├── compilation-guide.md
     ├── contribution-guide.md
+    ├── learning-resources.md
     └── materials-inventory.md
 ```
 
@@ -139,6 +140,14 @@ Run on Windows:
 
 More details are available in
 [`docs/compilation-guide.md`](docs/compilation-guide.md).
+
+## Learning Resources
+
+General C++ videos for functions, arrays, default arguments, function
+overloading, and structs are collected in
+[`docs/learning-resources.md`](docs/learning-resources.md). They are not
+sheet-specific walkthroughs; they are used to build the foundations needed
+before solving a sheet.
 
 ## File Naming
 
