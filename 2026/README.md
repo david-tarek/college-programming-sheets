@@ -15,8 +15,8 @@ COMP 205 Object-Oriented Programming sheets for the 2026 cohort.
 
 Sheet 2 has two parts:
 
-- `Sheet 2/2.1 Homework`
-- `Sheet 2/2.2 Lab`
+- `Sheet 2/2.1-Homework`
+- `Sheet 2/2.2-Lab`
 
 Each part will have its own solutions, README, and videos.
 
