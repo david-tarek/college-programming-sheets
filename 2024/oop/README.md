@@ -1,9 +1,6 @@
-# OOP — Cohort 2024
+# OOP — 2024
 
-This directory contains the Object-Oriented Programming sheets for the 2024
-cohort.
-
-## Sheets
+COMP 205 Object-Oriented Programming sheets for the 2024 cohort.
 
 | Sheet | Focus | Questions | Status |
 |-------|-------|-----------|--------|
@@ -17,11 +14,4 @@ cohort.
 | 08 | Polymorphism; virtual functions | 1 | Not started |
 | 09 | Polymorphism; multiple inheritance; templates | 2 | Not started |
 
-Question counts are preliminary and will be confirmed while each sheet is
-reviewed.
-
-## Notes
-
-- Sheet folders are added when their solutions are documented.
-- The 2024 curriculum is not assumed to match any other cohort.
-- The original PDFs are not published in this repository.
+The original PDFs are not uploaded.

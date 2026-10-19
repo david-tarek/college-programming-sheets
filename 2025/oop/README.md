@@ -1,9 +1,6 @@
-# OOP — Cohort 2025
+# OOP — 2025
 
-This directory contains the Object-Oriented Programming sheets for the 2025
-cohort.
-
-## Sheets
+COMP 205 Object-Oriented Programming sheets for the 2025 cohort.
 
 | Sheet | Focus | Questions | Status |
 |-------|-------|-----------|--------|
@@ -15,11 +12,4 @@ cohort.
 | 06 | Input/output, indexing, increment, and comparison operators | 2 | Not started |
 | 07 | Single, multiple, and multilevel inheritance | 3 | Not started |
 
-Question counts are preliminary and will be confirmed while each sheet is
-reviewed.
-
-## Notes
-
-- Sheet folders are added when their solutions are documented.
-- The 2025 curriculum is not assumed to match any other cohort.
-- The original PDFs are not published in this repository.
+The original PDFs are not uploaded.
