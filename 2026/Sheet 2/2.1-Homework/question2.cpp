@@ -1,6 +1,5 @@
 #include <iostream>
 #include <cmath>
-#include <string>
 using namespace std;
 
 class Data
@@ -30,11 +29,7 @@ public:
 
     for (int i = 0; i < n; i++)
     {
-      if (fmod(X[i], h) == 0.0f) {
-        T[i] = "Yes";
-      } else {
-        T[i] = "No";
-      }
+      (fmod(X[i], h) == 0 ? T[i] = "Yes" : T[i] = "No");
     }
   }
 
@@ -62,7 +57,7 @@ public:
       }
     }
     if (count == 0) {
-      return 0.0f;
+      return 0;
     }
     avg = sum / count;
     return avg;

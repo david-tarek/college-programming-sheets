@@ -1,6 +1,5 @@
 #include <iostream>
 #include <iomanip>
-#include <string>
 using namespace std;
 
 struct Data
@@ -11,7 +10,7 @@ struct Data
 
   void Read() {
     cout << "Enter name: ";
-    getline(cin >> ws, name);
+    cin >> name;
     cout << "Enter ID: ";
     cin >> ID;
     cout << "Enter age: ";
@@ -92,36 +91,12 @@ struct Student
   }
 
   void DisplayTable() {
-    cout << "=====================================\n";
-    cout << "             STUDENTS\n";
-    cout << "=====================================\n";
-    cout << "Number of students: " << n << '\n';
-
-    cout << left
-         << setw(5) << "ID"
-         << setw(15) << "Name"
-         << setw(6) << "Age";
-    for (int j = 0; j < 7; j++) {
-      cout << setw(7) << ("G" + to_string(j + 1));
-    }
-    cout << setw(7) << "GPA" << setw(8) << "Avg" << '\n';
-
-    cout << string(90, '-') << '\n';
-
+    cout << "=====================================\n" << "         STUDENTS            \n" << "=====================================\n";
+    cout << "ID\tName\tage\tGPA\tAvg\n--------------------------------------\n";
     for (int i = 0; i < n; i++)
     {
-      cout << left
-           << setw(5) << S[i].ID
-           << setw(15) << S[i].name
-           << setw(6) << S[i].age;
-      for (int j = 0; j < 7; j++) {
-        cout << setw(7) << S[i].G[j];
-      }
-      cout << setw(7) << S[i].GPA
-           << setw(8) << S[i].avg << '\n';
+      cout << S[i].ID << "\t" << S[i].name << "\t" << S[i].age << "\t" << S[i].GPA << "\t" << S[i].avg << "\n======================================\n";
     }
-
-    cout << string(90, '-') << '\n';
   }
 
 };
