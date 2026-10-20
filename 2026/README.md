@@ -6,7 +6,7 @@ COMP 205 Object-Oriented Programming sheets for the 2026 cohort.
 
 | Sheet | Focus | Status |
 |-------|-------|--------|
-| Sheet 1 | Fundamentals & Dynamic Arrays | Not uploaded yet |
+| [Sheet 1](./Sheet%201/) | Fundamentals & Dynamic Arrays | Completed |
 | Sheet 2 | Classes, Math & 3D Geometry | Not uploaded yet |
 | Sheet 3 | Object-Oriented Design & Constructors | Not uploaded yet |
 | Sheet 4 | Friend Functions & Classes | Not uploaded yet |
