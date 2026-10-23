@@ -56,7 +56,9 @@ college-programming-sheets/
 │   │   │   └── videos.md
 │   │   └── 2.2-Lab/
 │   │       ├── README.md
-│   │       └── question1.cpp
+│   │       ├── question1.cpp
+│   │       ├── question2.cpp
+│   │       └── videos.md
 │   ├── Sheet 3/
 │   └── Sheet 4/
 │
@@ -82,7 +84,7 @@ Every sheet has its own dedicated folder containing:
 
 - **README.md:** Sheet overview, problem descriptions, step-by-step explanations, examples, and recommended video tutorials or playlists.
 - **C++ Solution Files:** A separate `.cpp` file for each question, containing its corresponding solution.
-- **Video Resources:** Curated links documented in the sheet's README, matched to the concepts and problems covered.
+- **Video Resources:** Curated links documented in the sheet's `videos.md`, matched to the concepts and problems covered.
 
 Each cohort also has its own `README.md` to list its available sheets and track their progress.
 
